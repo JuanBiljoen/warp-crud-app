@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+:root {
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+  --font-size-body: 28px;
+  --font-family-body: "Manrope", sans-serif;
+}
+
+body {
+
+  
+}
+
+
+.main{
+  font-family: "Manrope", sans-serif !important;
+  background-color: var(--Dark-Grayish-Blue) !important;
+
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Manrope", sans-serif;
+  flex-direction: column;
+  background-color: white;
+  border: 1px, black, solid;
+}
+
+.main-header{
+ font-family: "Manrope", sans-serif;
+}
+
+/* .create-form label{
+  color: black !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+} */
+
+.create-form {
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+  padding: 10px;
+  width:250px;
+  background-color:708090;
+  
+
+}
+
+.create-label{
+  color: var(--Light-Cyan) !important;
+  font-family: "Manrope", sans-serif;
+}
+
+.phone-icon{
+  height: 150px;
+  border-radius: 10px;
+}
+
+.table-container{
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+}
+
+.table-container .ui.table td {
+
+}
+.table-container .ui.table th {
+  border-right: 1px solid black !important;
+  background-color: var(--Dark-Blue);
+  color: var(--Light-Cyan);
+  
+}
+
+.add-contact-button{
+  margin: 0;
+  position:relative;
+  top: 79%;
+  left: 49%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: 9px !important;
+}
+
+.sort-button{
+  margin-top: 5px !important;
+
+}
